@@ -1,5 +1,35 @@
 {
-    "require": {
-        "symfony/config": "^3.4"
+  "name": "ratio/tools",
+  "type": "library",
+  "description": "Ratio tools",
+  "keywords": [
+    "ratio",
+    "tools",
+    "bitrix"
+  ],
+  "homepage": "https://studioratio.ru/",
+  "version": "0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Studio Ratio",
+      "email": "info@quetzal.ru"
     }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/figurecode/RatioTools"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.8",
+    "symfony/config": ">=4.0",
+    "arrilot/bitrix-migrations": ">=2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ratio\\Tools\\": "src/"
+    }
+  }
 }
