@@ -16,12 +16,6 @@
       "email": "info@quetzal.ru"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/figurecode/RatioTools"
-    }
-  ],
   "require": {
     "php": ">=7.0.8",
     "symfony/config": ">=4.0",
